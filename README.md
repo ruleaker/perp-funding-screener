@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-05-31 04:58 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **909**_
+_Last update: **2026-05-31 10:28 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **909**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | DELL | okx | +498.48% |
-| 2 | ARM | okx | +200.15% |
-| 3 | COST | bitget | +109.50% |
-| 4 | ASTS | bitget | +109.50% |
-| 5 | IONQ | bitget | +109.50% |
-| 6 | ASML | bitget | +109.50% |
-| 7 | RDDT | bitget | +109.50% |
-| 8 | AVGO | bitget | +109.50% |
-| 9 | AAOI | bitget | +109.50% |
-| 10 | CRCL | bitget | +109.50% |
+| 1 | DELL | okx | +466.24% |
+| 2 | ARM | okx | +220.92% |
+| 3 | SHLD | okx | +163.51% |
+| 4 | AAOI | okx | +119.01% |
+| 5 | COST | bitget | +109.50% |
+| 6 | ASTS | bitget | +109.50% |
+| 7 | IONQ | bitget | +109.50% |
+| 8 | ASML | bitget | +109.50% |
+| 9 | RDDT | bitget | +109.50% |
+| 10 | AVGO | bitget | +109.50% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | PUNDIX | bitget | -1646.00% |
-| 2 | HIVE | bitget | -1078.03% |
-| 3 | STG | bitget | -621.74% |
-| 4 | ID | bitget | -376.13% |
-| 5 | LAB | okx | -225.22% |
-| 6 | VTHO | bitget | -162.17% |
-| 7 | FLY | bitget | -109.50% |
-| 8 | STXSTOCK | bitget | -108.51% |
-| 9 | OPG | okx | -107.55% |
-| 10 | LAB | bitget | -98.99% |
+| 1 | SIGN | bitget | -1783.21% |
+| 2 | SIGN | okx | -1642.50% |
+| 3 | PUNDIX | bitget | -655.14% |
+| 4 | STEEM | bitget | -436.25% |
+| 5 | HOME | okx | -383.69% |
+| 6 | ID | bitget | -252.07% |
+| 7 | HOME | bitget | -234.22% |
+| 8 | ARIA | bitget | -210.46% |
+| 9 | LAB | bitget | -199.95% |
+| 10 | HIVE | bitget | -168.85% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | DELL | +388.98% | okx | +498.48% | bitget | +109.50% |
-| 2 | LAB | +126.23% | bitget | -98.99% | okx | -225.22% |
-| 3 | COST | +109.50% | bitget | +109.50% | okx | +0.00% |
-| 4 | PLTR | +109.50% | bitget | +109.50% | okx | +0.00% |
-| 5 | COIN | +109.50% | bitget | +109.50% | okx | +0.00% |
-| 6 | NVDA | +109.50% | bitget | +109.50% | okx | +0.00% |
-| 7 | MSFT | +109.50% | bitget | +109.50% | okx | +0.00% |
-| 8 | EWY | +109.12% | bitget | +109.50% | okx | +0.38% |
-| 9 | RKLB | +98.55% | bitget | +109.50% | okx | +10.95% |
-| 10 | CBRS | +98.55% | bitget | +109.50% | okx | +10.95% |
+| 1 | DELL | +356.74% | okx | +466.24% | bitget | +109.50% |
+| 2 | HOME | +149.47% | bitget | -234.22% | okx | -383.69% |
+| 3 | SIGN | +140.71% | okx | -1642.50% | bitget | -1783.21% |
+| 4 | ARM | +111.42% | okx | +220.92% | bitget | +109.50% |
+| 5 | COST | +109.50% | bitget | +109.50% | okx | +0.00% |
+| 6 | COIN | +109.50% | bitget | +109.50% | okx | +0.00% |
+| 7 | SNDK | +109.50% | bitget | +109.50% | okx | +0.00% |
+| 8 | EWY | +109.50% | bitget | +109.50% | okx | +0.00% |
+| 9 | HOOD | +107.10% | bitget | +109.50% | okx | +2.40% |
+| 10 | DRAM | +98.55% | bitget | +109.50% | okx | +10.95% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
