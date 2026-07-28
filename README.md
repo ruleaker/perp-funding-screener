@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-07-28 03:44 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1138**_
+_Last update: **2026-07-28 10:56 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1138**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | FWDI | okx | +838.62% |
-| 2 | GIGADEVICE | bitget | +547.50% |
-| 3 | KR200 | okx | +515.69% |
-| 4 | SAMSUNG | okx | +238.57% |
-| 5 | SKHYNIX | okx | +230.86% |
-| 6 | SKHYNIX | bitget | +206.52% |
-| 7 | MAGMA | bitget | +196.66% |
-| 8 | SAMSUNG | bitget | +164.36% |
-| 9 | JCT | bitget | +162.72% |
-| 10 | APR | bitget | +133.15% |
+| 1 | ARQQ | bitget | +389.60% |
+| 2 | SKHYNIX | okx | +366.09% |
+| 3 | KR200 | okx | +261.29% |
+| 4 | MINIMAX | okx | +253.74% |
+| 5 | SAMSUNG | okx | +239.40% |
+| 6 | FWDI | okx | +229.64% |
+| 7 | BUD | bitget | +220.75% |
+| 8 | KIOXIA | okx | +198.26% |
+| 9 | NDX100 | bitget | +174.76% |
+| 10 | ZHIPU | okx | +164.38% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | LA | bitget | -897.68% |
-| 2 | LA | okx | -800.16% |
-| 3 | KORU | bitget | -293.13% |
-| 4 | HOT | bitget | -193.81% |
-| 5 | SOXS | okx | -191.57% |
-| 6 | VANRY | bitget | -191.30% |
-| 7 | BLEND | okx | -189.49% |
-| 8 | T | bitget | -182.10% |
-| 9 | COTI | bitget | -175.20% |
-| 10 | RAM | bitget | -163.48% |
+| 1 | LA | bitget | -1590.16% |
+| 2 | VANRY | bitget | -1002.91% |
+| 3 | LA | okx | -598.91% |
+| 4 | BOT | bitget | -469.76% |
+| 5 | TLM | bitget | -355.44% |
+| 6 | SOXS | okx | -250.96% |
+| 7 | AEON | bitget | -207.61% |
+| 8 | SPELL | bitget | -176.84% |
+| 9 | BOT | okx | -168.62% |
+| 10 | COTI | bitget | -147.39% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | FWDI | +962.02% | okx | +838.62% | bitget | -123.41% |
-| 2 | KORU | +293.13% | okx | +0.00% | bitget | -293.13% |
-| 3 | SOXS | +237.67% | bitget | +46.10% | okx | -191.57% |
-| 4 | RAM | +190.41% | okx | +26.92% | bitget | -163.48% |
-| 5 | APR | +127.68% | bitget | +133.15% | okx | +5.47% |
-| 6 | QNT | +106.53% | okx | +113.32% | bitget | +6.79% |
-| 7 | AEHR | +106.04% | bitget | +0.00% | okx | -106.04% |
-| 8 | BSP | +100.28% | okx | +100.28% | bitget | +0.00% |
-| 9 | LA | +97.52% | okx | -800.16% | bitget | -897.68% |
-| 10 | MVLL | +89.35% | okx | +0.00% | bitget | -89.35% |
+| 1 | LA | +991.25% | okx | -598.91% | bitget | -1590.16% |
+| 2 | SKHYNIX | +366.09% | okx | +366.09% | bitget | +0.00% |
+| 3 | BOT | +301.13% | okx | -168.62% | bitget | -469.76% |
+| 4 | FWDI | +245.30% | okx | +229.64% | bitget | -15.66% |
+| 5 | SAMSUNG | +239.40% | okx | +239.40% | bitget | +0.00% |
+| 6 | SOXS | +235.96% | bitget | -15.00% | okx | -250.96% |
+| 7 | KIOXIA | +198.26% | okx | +198.26% | bitget | +0.00% |
+| 8 | ROK | +141.44% | bitget | +0.00% | okx | -141.44% |
+| 9 | SNXX | +133.59% | okx | +133.59% | bitget | +0.00% |
+| 10 | MINIMAX | +115.34% | okx | +253.74% | bitget | +138.41% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
