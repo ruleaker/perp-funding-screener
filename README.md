@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-07-31 03:58 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1153**_
+_Last update: **2026-07-31 11:04 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1153**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | ZHIPU | okx | +1095.00% |
-| 2 | KIOXIA | okx | +980.51% |
-| 3 | MINIMAX | okx | +476.87% |
-| 4 | MAGMA | bitget | +412.49% |
-| 5 | SOXS | okx | +142.66% |
-| 6 | APR | bitget | +117.93% |
-| 7 | ZHIPU | bitget | +111.14% |
-| 8 | MINIMAX | bitget | +106.32% |
-| 9 | ON | okx | +100.69% |
-| 10 | MSTU | bitget | +90.99% |
+| 1 | FLY | bitget | +280.98% |
+| 2 | BSP | okx | +219.32% |
+| 3 | KIOXIA | bitget | +197.43% |
+| 4 | SATL | bitget | +132.49% |
+| 5 | APR | bitget | +87.05% |
+| 6 | MINIMAX | bitget | +84.75% |
+| 7 | SOXS | okx | +83.91% |
+| 8 | XPD | okx | +70.91% |
+| 9 | KIOXIA | okx | +68.89% |
+| 10 | QNTSTOCK | bitget | +65.04% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | LA | bitget | -1645.02% |
-| 2 | LA | okx | -780.77% |
-| 3 | ZHIPUHKD | bitget | -547.50% |
-| 4 | MIRA | bitget | -507.86% |
-| 5 | KR200 | okx | -420.46% |
-| 6 | ADVANTEST | bitget | -414.90% |
-| 7 | VANRY | bitget | -312.62% |
-| 8 | RDDT | bitget | -302.99% |
-| 9 | BANK | bitget | -249.11% |
-| 10 | EUL | bitget | -231.04% |
+| 1 | LA | bitget | -789.06% |
+| 2 | CFX | bitget | -592.39% |
+| 3 | CFX | okx | -562.14% |
+| 4 | RDDT | bitget | -547.50% |
+| 5 | VANRY | bitget | -423.22% |
+| 6 | EUL | bitget | -417.52% |
+| 7 | LA | okx | -363.42% |
+| 8 | ERA | bitget | -358.50% |
+| 9 | SKHYNIX | okx | -346.82% |
+| 10 | FWDI | bitget | -303.10% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | ZHIPU | +983.86% | okx | +1095.00% | bitget | +111.14% |
-| 2 | KIOXIA | +980.51% | okx | +980.51% | bitget | +0.00% |
-| 3 | LA | +864.25% | okx | -780.77% | bitget | -1645.02% |
-| 4 | MINIMAX | +370.55% | okx | +476.87% | bitget | +106.32% |
-| 5 | RDDT | +302.99% | okx | +0.00% | bitget | -302.99% |
-| 6 | WEN | +180.61% | bitget | +0.00% | okx | -180.61% |
-| 7 | INTW | +124.48% | bitget | -61.87% | okx | -186.35% |
-| 8 | SOXL | +119.56% | bitget | -20.91% | okx | -140.48% |
-| 9 | APR | +112.46% | bitget | +117.93% | okx | +5.47% |
-| 10 | SOXS | +106.09% | okx | +142.66% | bitget | +36.57% |
+| 1 | RDDT | +547.50% | okx | +0.00% | bitget | -547.50% |
+| 2 | LA | +425.64% | okx | -363.42% | bitget | -789.06% |
+| 3 | SKHYNIX | +346.82% | bitget | +0.00% | okx | -346.82% |
+| 4 | FWDI | +303.10% | okx | +0.00% | bitget | -303.10% |
+| 5 | FLY | +280.98% | bitget | +280.98% | okx | +0.00% |
+| 6 | BSP | +219.32% | okx | +219.32% | bitget | +0.00% |
+| 7 | SAMSUNG | +213.22% | bitget | +0.00% | okx | -213.22% |
+| 8 | HYUNDAI | +131.31% | bitget | +0.00% | okx | -131.31% |
+| 9 | KIOXIA | +128.54% | bitget | +197.43% | okx | +68.89% |
+| 10 | ZIL | +96.99% | bitget | -13.03% | okx | -110.02% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
