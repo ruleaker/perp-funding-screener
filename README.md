@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-07-30 17:54 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1153**_
+_Last update: **2026-07-31 03:58 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1153**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | ZHIPU | okx | +689.09% |
-| 2 | FWDI | bitget | +442.82% |
-| 3 | SKHYNIX | okx | +429.44% |
-| 4 | SAMSUNG | okx | +391.33% |
-| 5 | KR200 | okx | +321.73% |
-| 6 | KIOXIA | okx | +315.94% |
-| 7 | ZHIPU | bitget | +152.42% |
-| 8 | SHAZ | bitget | +133.37% |
-| 9 | MINIMAX | okx | +123.27% |
-| 10 | ZHIPUHKD | bitget | +102.93% |
+| 1 | ZHIPU | okx | +1095.00% |
+| 2 | KIOXIA | okx | +980.51% |
+| 3 | MINIMAX | okx | +476.87% |
+| 4 | MAGMA | bitget | +412.49% |
+| 5 | SOXS | okx | +142.66% |
+| 6 | APR | bitget | +117.93% |
+| 7 | ZHIPU | bitget | +111.14% |
+| 8 | MINIMAX | bitget | +106.32% |
+| 9 | ON | okx | +100.69% |
+| 10 | MSTU | bitget | +90.99% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | LA | bitget | -989.55% |
-| 2 | LA | okx | -395.97% |
-| 3 | GRVT | okx | -371.27% |
-| 4 | DEXE | bitget | -335.51% |
-| 5 | VANRY | bitget | -315.80% |
-| 6 | INTW | okx | -232.73% |
-| 7 | EUL | bitget | -218.23% |
-| 8 | ESP | okx | -187.57% |
-| 9 | KOPN | bitget | -152.42% |
-| 10 | GRVT | bitget | -145.20% |
+| 1 | LA | bitget | -1645.02% |
+| 2 | LA | okx | -780.77% |
+| 3 | ZHIPUHKD | bitget | -547.50% |
+| 4 | MIRA | bitget | -507.86% |
+| 5 | KR200 | okx | -420.46% |
+| 6 | ADVANTEST | bitget | -414.90% |
+| 7 | VANRY | bitget | -312.62% |
+| 8 | RDDT | bitget | -302.99% |
+| 9 | BANK | bitget | -249.11% |
+| 10 | EUL | bitget | -231.04% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | LA | +593.58% | okx | -395.97% | bitget | -989.55% |
-| 2 | ZHIPU | +536.66% | okx | +689.09% | bitget | +152.42% |
-| 3 | FWDI | +442.82% | bitget | +442.82% | okx | +0.00% |
-| 4 | SAMSUNG | +391.33% | okx | +391.33% | bitget | +0.00% |
-| 5 | SKHYNIX | +370.53% | okx | +429.44% | bitget | +58.91% |
-| 6 | KIOXIA | +315.94% | okx | +315.94% | bitget | +0.00% |
-| 7 | GRVT | +226.07% | bitget | -145.20% | okx | -371.27% |
-| 8 | INTW | +188.49% | bitget | -44.24% | okx | -232.73% |
-| 9 | BOT | +136.00% | okx | +0.00% | bitget | -136.00% |
-| 10 | SHAZ | +133.37% | bitget | +133.37% | okx | +0.00% |
+| 1 | ZHIPU | +983.86% | okx | +1095.00% | bitget | +111.14% |
+| 2 | KIOXIA | +980.51% | okx | +980.51% | bitget | +0.00% |
+| 3 | LA | +864.25% | okx | -780.77% | bitget | -1645.02% |
+| 4 | MINIMAX | +370.55% | okx | +476.87% | bitget | +106.32% |
+| 5 | RDDT | +302.99% | okx | +0.00% | bitget | -302.99% |
+| 6 | WEN | +180.61% | bitget | +0.00% | okx | -180.61% |
+| 7 | INTW | +124.48% | bitget | -61.87% | okx | -186.35% |
+| 8 | SOXL | +119.56% | bitget | -20.91% | okx | -140.48% |
+| 9 | APR | +112.46% | bitget | +117.93% | okx | +5.47% |
+| 10 | SOXS | +106.09% | okx | +142.66% | bitget | +36.57% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
