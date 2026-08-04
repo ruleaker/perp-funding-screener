@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-08-03 18:14 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1161**_
+_Last update: **2026-08-04 03:46 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1161**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | SKHYNIX | okx | +322.39% |
-| 2 | SAMSUNG | okx | +287.90% |
-| 3 | HYUNDAI | okx | +103.57% |
-| 4 | KR200 | okx | +103.48% |
-| 5 | ESPORTS | bitget | +86.29% |
-| 6 | APR | bitget | +85.52% |
-| 7 | SKHYNIX | bitget | +79.39% |
-| 8 | GRIFFAIN | bitget | +66.36% |
-| 9 | KIOXIA | bitget | +62.09% |
-| 10 | ZHIPU | okx | +60.70% |
+| 1 | FWDI | bitget | +231.70% |
+| 2 | SKHYNIX | okx | +184.33% |
+| 3 | KR200 | okx | +159.12% |
+| 4 | MINIMAX | bitget | +143.44% |
+| 5 | SKHYNIX | bitget | +106.43% |
+| 6 | RAM | okx | +79.61% |
+| 7 | TRUTH | okx | +69.26% |
+| 8 | GRIFFAIN | bitget | +68.77% |
+| 9 | MINIMAX | okx | +55.63% |
+| 10 | ARC | bitget | +49.06% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | WAXP | bitget | -1123.14% |
-| 2 | DEXE | bitget | -636.09% |
-| 3 | VANRY | bitget | -449.17% |
-| 4 | BICO | okx | -307.76% |
-| 5 | STORJ | bitget | -156.04% |
-| 6 | LA | okx | -144.99% |
-| 7 | BICO | bitget | -134.25% |
-| 8 | SYN | bitget | -127.90% |
-| 9 | ZIL | okx | -126.94% |
-| 10 | ACE | bitget | -109.50% |
+| 1 | WAXP | bitget | -929.33% |
+| 2 | KIOXIA | bitget | -470.96% |
+| 3 | FWDI | okx | -334.05% |
+| 4 | SNXX | okx | -285.49% |
+| 5 | KOPN | bitget | -207.72% |
+| 6 | VANRY | bitget | -176.73% |
+| 7 | BANK | bitget | -174.21% |
+| 8 | KORU | bitget | -159.76% |
+| 9 | MIRA | bitget | -129.76% |
+| 10 | SYN | bitget | -129.43% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | SAMSUNG | +287.90% | okx | +287.90% | bitget | +0.00% |
-| 2 | SKHYNIX | +243.01% | okx | +322.39% | bitget | +79.39% |
-| 3 | BICO | +173.51% | bitget | -134.25% | okx | -307.76% |
-| 4 | HYUNDAI | +103.57% | okx | +103.57% | bitget | +0.00% |
-| 5 | APR | +79.80% | bitget | +85.52% | okx | +5.72% |
-| 6 | KIOXIA | +62.09% | bitget | +62.09% | okx | +0.00% |
-| 7 | VANA | +60.22% | okx | +4.16% | bitget | -56.06% |
-| 8 | ZIL | +57.63% | bitget | -69.31% | okx | -126.94% |
-| 9 | FWDI | +56.28% | okx | +0.00% | bitget | -56.28% |
-| 10 | THETA | +53.27% | bitget | +10.95% | okx | -42.32% |
+| 1 | FWDI | +565.75% | bitget | +231.70% | okx | -334.05% |
+| 2 | KIOXIA | +375.54% | okx | -95.42% | bitget | -470.96% |
+| 3 | SNXX | +190.12% | bitget | -95.37% | okx | -285.49% |
+| 4 | KORU | +159.76% | okx | +0.00% | bitget | -159.76% |
+| 5 | RAM | +118.26% | okx | +79.61% | bitget | -38.65% |
+| 6 | BICO | +106.96% | bitget | -17.30% | okx | -124.26% |
+| 7 | MINIMAX | +87.82% | bitget | +143.44% | okx | +55.63% |
+| 8 | SKHYNIX | +77.89% | okx | +184.33% | bitget | +106.43% |
+| 9 | VANA | +56.83% | okx | +5.47% | bitget | -51.36% |
+| 10 | ZIL | +56.00% | bitget | -36.57% | okx | -92.58% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
