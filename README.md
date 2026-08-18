@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-08-17 16:53 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1193**_
+_Last update: **2026-08-18 01:56 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1193**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | BSP | bitget | +211.01% |
-| 2 | VST | bitget | +102.82% |
-| 3 | MELI | bitget | +98.44% |
-| 4 | SAMSUNG | okx | +91.14% |
-| 5 | SKHYNIX | okx | +88.42% |
-| 6 | BOT | bitget | +87.49% |
-| 7 | ESPORTS | bitget | +87.38% |
-| 8 | BOT | okx | +79.74% |
-| 9 | SIREN | bitget | +73.69% |
-| 10 | BRKB | bitget | +68.11% |
+| 1 | DOOSBOT | bitget | +547.50% |
+| 2 | FWDI | okx | +117.77% |
+| 3 | BEAT | okx | +107.39% |
+| 4 | XPD | okx | +106.76% |
+| 5 | BSP | okx | +94.66% |
+| 6 | ESPORTS | bitget | +91.10% |
+| 7 | VST | bitget | +70.19% |
+| 8 | RLS | okx | +69.96% |
+| 9 | H | bitget | +62.74% |
+| 10 | ZHONGJI | bitget | +57.05% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | BICO | bitget | -340.76% |
-| 2 | SKUU | bitget | -336.49% |
-| 3 | ONG | bitget | -333.65% |
-| 4 | COW | bitget | -264.77% |
-| 5 | ACE | bitget | -250.10% |
-| 6 | HOME | bitget | -213.53% |
-| 7 | CAP | bitget | -208.05% |
-| 8 | HOME | okx | -203.51% |
-| 9 | CAP | okx | -185.35% |
-| 10 | AEHR | okx | -154.49% |
+| 1 | HOME | bitget | -608.93% |
+| 2 | HOME | okx | -582.20% |
+| 3 | ACE | bitget | -428.15% |
+| 4 | BICO | bitget | -358.17% |
+| 5 | AEHR | okx | -302.53% |
+| 6 | ONG | bitget | -295.98% |
+| 7 | PROM | bitget | -232.25% |
+| 8 | RVN | okx | -206.82% |
+| 9 | COW | bitget | -186.04% |
+| 10 | CAP | okx | -168.31% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | SKUU | +276.63% | okx | -59.86% | bitget | -336.49% |
-| 2 | BICO | +231.60% | okx | -109.17% | bitget | -340.76% |
-| 3 | AEHR | +154.49% | bitget | +0.00% | okx | -154.49% |
-| 4 | BSP | +146.88% | bitget | +211.01% | okx | +64.12% |
-| 5 | RVN | +143.50% | bitget | +4.05% | okx | -139.45% |
-| 6 | DOS | +95.61% | okx | -13.13% | bitget | -108.73% |
-| 7 | SAMSUNG | +89.28% | okx | +91.14% | bitget | +1.86% |
-| 8 | GPS | +72.99% | bitget | -19.16% | okx | -92.16% |
-| 9 | WAL | +57.63% | okx | -29.53% | bitget | -87.16% |
-| 10 | THETA | +55.69% | bitget | -5.04% | okx | -60.73% |
+| 1 | AEHR | +302.53% | bitget | +0.00% | okx | -302.53% |
+| 2 | BICO | +199.59% | okx | -158.58% | bitget | -358.17% |
+| 3 | RVN | +199.59% | bitget | -7.23% | okx | -206.82% |
+| 4 | SNXX | +123.60% | okx | -23.79% | bitget | -147.39% |
+| 5 | FWDI | +117.77% | okx | +117.77% | bitget | +0.00% |
+| 6 | ONT | +95.24% | bitget | -8.65% | okx | -103.89% |
+| 7 | BSP | +94.66% | okx | +94.66% | bitget | +0.00% |
+| 8 | GMX | +81.80% | okx | +10.95% | bitget | -70.85% |
+| 9 | MUU | +79.94% | okx | +0.00% | bitget | -79.94% |
+| 10 | SNDK | +71.54% | okx | -27.45% | bitget | -98.99% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
