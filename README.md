@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-09-14 05:12 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1251**_
+_Last update: **2026-09-14 15:08 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1250**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | SAMSUNGEM | bitget | +448.29% |
-| 2 | HANMI | bitget | +312.07% |
-| 3 | ZHIPU | okx | +248.87% |
-| 4 | SHEINHKD | bitget | +237.62% |
-| 5 | ZHONGJI | okx | +223.78% |
-| 6 | SKHYNIX | okx | +223.32% |
-| 7 | ZHIPU | bitget | +217.25% |
-| 8 | SHEIN | okx | +209.46% |
-| 9 | CONL | bitget | +162.72% |
-| 10 | NG | okx | +148.57% |
+| 1 | ETN | bitget | +512.02% |
+| 2 | NG | okx | +317.02% |
+| 3 | HPQ | bitget | +261.16% |
+| 4 | NATGAS | bitget | +208.27% |
+| 5 | ECHO | bitget | +173.67% |
+| 6 | ONE | bitget | +136.33% |
+| 7 | US500 | okx | +123.14% |
+| 8 | KORU | bitget | +110.49% |
+| 9 | GPRO | okx | +100.05% |
+| 10 | BUD | bitget | +83.88% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | STEEM | bitget | -1885.92% |
-| 2 | POWR | bitget | -1003.57% |
-| 3 | GLM | bitget | -967.21% |
-| 4 | UNITREE | okx | -820.12% |
-| 5 | LSK | bitget | -810.41% |
-| 6 | BSP | okx | -764.57% |
-| 7 | CVC | bitget | -760.26% |
-| 8 | PUNDIX | bitget | -734.64% |
-| 9 | GLM | okx | -485.09% |
-| 10 | UNITREE | bitget | -411.61% |
+| 1 | CAP | bitget | -1268.89% |
+| 2 | CAP | okx | -1095.00% |
+| 3 | CVC | bitget | -933.60% |
+| 4 | LSK | bitget | -778.87% |
+| 5 | ZIL | okx | -448.45% |
+| 6 | POWR | bitget | -366.17% |
+| 7 | LA | okx | -318.19% |
+| 8 | STEEM | bitget | -309.45% |
+| 9 | LA | bitget | -300.69% |
+| 10 | CSOPSS2LHKD | bitget | -298.39% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | BSP | +764.57% | bitget | +0.00% | okx | -764.57% |
-| 2 | GLM | +482.12% | okx | -485.09% | bitget | -967.21% |
-| 3 | UNITREE | +408.51% | bitget | -411.61% | okx | -820.12% |
-| 4 | APP | +255.08% | bitget | +17.74% | okx | -237.35% |
-| 5 | IOST | +233.69% | bitget | -55.52% | okx | -289.20% |
-| 6 | AEHR | +161.29% | okx | +0.00% | bitget | -161.29% |
-| 7 | KORU | +154.39% | okx | +0.00% | bitget | -154.39% |
-| 8 | ZIL | +152.62% | bitget | +5.47% | okx | -147.15% |
-| 9 | XIAOMI | +141.59% | okx | +141.59% | bitget | +0.00% |
-| 10 | RAM | +133.32% | okx | +56.23% | bitget | -77.09% |
+| 1 | ZIL | +453.93% | bitget | +5.47% | okx | -448.45% |
+| 2 | IOST | +205.07% | bitget | -58.80% | okx | -263.88% |
+| 3 | CAP | +173.89% | okx | -1095.00% | bitget | -1268.89% |
+| 4 | ONE | +137.75% | bitget | +136.33% | okx | -1.42% |
+| 5 | GPRO | +100.05% | okx | +100.05% | bitget | +0.00% |
+| 6 | SAMSUNG | +96.98% | bitget | -65.92% | okx | -162.90% |
+| 7 | FLY | +96.80% | okx | +0.00% | bitget | -96.80% |
+| 8 | AMC | +80.59% | okx | +0.00% | bitget | -80.59% |
+| 9 | IOTA | +72.48% | bitget | -27.38% | okx | -99.86% |
+| 10 | ROBO | +63.85% | bitget | +5.47% | okx | -58.37% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
