@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-09-23 04:57 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1273**_
+_Last update: **2026-09-23 13:45 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1281**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | SHLD | okx | +245.43% |
-| 2 | XIAOMI | okx | +227.00% |
-| 3 | XIAOMI | bitget | +206.30% |
-| 4 | MSTU | bitget | +190.09% |
-| 5 | ZHIPU | okx | +187.69% |
-| 6 | BNC | bitget | +179.58% |
-| 7 | ZHIPU | bitget | +159.98% |
-| 8 | SKHYNIX | okx | +157.81% |
-| 9 | ZHONGJI | okx | +152.19% |
-| 10 | SKDD | bitget | +143.88% |
+| 1 | SDGR | bitget | +304.41% |
+| 2 | ECHO | bitget | +278.24% |
+| 3 | ETN | bitget | +242.98% |
+| 4 | GPRO | bitget | +211.23% |
+| 5 | MSTU | okx | +208.24% |
+| 6 | CYPH | okx | +166.00% |
+| 7 | XPD | okx | +124.95% |
+| 8 | DDOG | okx | +107.54% |
+| 9 | XPT | okx | +96.79% |
+| 10 | MCD | bitget | +82.12% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | LGELECTRONICS | bitget | -481.47% |
-| 2 | ONE | okx | -433.62% |
-| 3 | KERNEL | bitget | -389.93% |
-| 4 | ONE | bitget | -350.51% |
-| 5 | COTI | bitget | -325.54% |
-| 6 | LGELECTRONICS | okx | -239.34% |
-| 7 | CELR | bitget | -235.86% |
-| 8 | KORU | bitget | -185.38% |
-| 9 | CXMT | okx | -156.68% |
-| 10 | IOST | okx | -154.90% |
+| 1 | ONE | bitget | -1048.57% |
+| 2 | ONE | okx | -340.27% |
+| 3 | BUD | bitget | -298.72% |
+| 4 | KERNEL | bitget | -182.54% |
+| 5 | CELR | bitget | -153.19% |
+| 6 | JMKE | bitget | -142.46% |
+| 7 | FWDI | okx | -134.53% |
+| 8 | COTI | bitget | -118.92% |
+| 9 | SOPH | okx | -110.70% |
+| 10 | SOPH | bitget | -92.64% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | LGELECTRONICS | +242.13% | okx | -239.34% | bitget | -481.47% |
-| 2 | KORU | +185.38% | okx | +0.00% | bitget | -185.38% |
-| 3 | SKDD | +120.85% | bitget | +143.88% | okx | +23.03% |
-| 4 | MSTR | +107.85% | bitget | +129.43% | okx | +21.58% |
-| 5 | NAVER | +94.33% | okx | +111.41% | bitget | +17.08% |
-| 6 | SKUU | +89.02% | okx | +0.00% | bitget | -89.02% |
-| 7 | ONE | +83.12% | bitget | -350.51% | okx | -433.62% |
-| 8 | UVXY | +73.71% | okx | +73.71% | bitget | +0.00% |
-| 9 | HYUNDAI | +66.12% | okx | +130.83% | bitget | +64.71% |
-| 10 | SKHYNIX | +64.62% | okx | +157.81% | bitget | +93.18% |
+| 1 | ONE | +708.30% | okx | -340.27% | bitget | -1048.57% |
+| 2 | GPRO | +211.23% | bitget | +211.23% | okx | +0.00% |
+| 3 | MSTU | +208.24% | okx | +208.24% | bitget | +0.00% |
+| 4 | CYPH | +166.00% | okx | +166.00% | bitget | +0.00% |
+| 5 | FWDI | +134.53% | bitget | +0.00% | okx | -134.53% |
+| 6 | DDOG | +107.54% | okx | +107.54% | bitget | +0.00% |
+| 7 | SIMO | +80.29% | bitget | +0.00% | okx | -80.29% |
+| 8 | XPD | +77.42% | okx | +124.95% | bitget | +47.52% |
+| 9 | BSP | +68.09% | bitget | +0.00% | okx | -68.09% |
+| 10 | OKTA | +62.31% | bitget | +0.00% | okx | -62.31% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
