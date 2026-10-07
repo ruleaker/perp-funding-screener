@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-10-07 06:15 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1302**_
+_Last update: **2026-10-07 15:39 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1301**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | NAVER | bitget | +703.10% |
-| 2 | LGELECTRONICS | bitget | +596.34% |
-| 3 | NG | okx | +531.13% |
-| 4 | SAMSUNGEM | bitget | +496.91% |
-| 5 | KIOXIA | bitget | +299.70% |
-| 6 | HANMI | bitget | +242.87% |
-| 7 | NATGAS | bitget | +241.34% |
-| 8 | CSOPSKHYNIX2L | okx | +230.59% |
-| 9 | BOT | okx | +215.84% |
-| 10 | ACN | okx | +215.62% |
+| 1 | NG | okx | +877.78% |
+| 2 | NATGAS | bitget | +537.97% |
+| 3 | ETN | bitget | +316.35% |
+| 4 | BLSH | bitget | +289.41% |
+| 5 | ECHO | bitget | +269.37% |
+| 6 | GPRO | bitget | +219.88% |
+| 7 | KOPN | bitget | +147.39% |
+| 8 | SOFTBANK | okx | +141.69% |
+| 9 | MP | bitget | +125.16% |
+| 10 | ACNSTOCK | bitget | +109.50% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | H100 | okx | -1095.00% |
-| 2 | NMR | bitget | -427.49% |
-| 3 | BWET | okx | -299.12% |
-| 4 | SAND | bitget | -225.35% |
-| 5 | API3 | okx | -199.76% |
-| 6 | CYPH | bitget | -175.75% |
-| 7 | API3 | bitget | -158.99% |
-| 8 | SAND | okx | -147.13% |
-| 9 | KORU | bitget | -132.71% |
-| 10 | UMA | okx | -131.68% |
+| 1 | SECZ | bitget | -410.84% |
+| 2 | USDESTOCK | bitget | -356.97% |
+| 3 | NMR | bitget | -329.05% |
+| 4 | H100 | okx | -308.28% |
+| 5 | BWET | okx | -302.11% |
+| 6 | NMR | okx | -278.28% |
+| 7 | BR | bitget | -261.05% |
+| 8 | BOT | bitget | -200.06% |
+| 9 | MINA | bitget | -189.33% |
+| 10 | ALAB | bitget | -167.53% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | H100 | +1095.00% | bitget | +0.00% | okx | -1095.00% |
-| 2 | NAVER | +489.29% | bitget | +703.10% | okx | +213.81% |
-| 3 | LGELECTRONICS | +386.80% | bitget | +596.34% | okx | +209.53% |
-| 4 | NMR | +331.25% | okx | -96.24% | bitget | -427.49% |
-| 5 | BWET | +299.12% | bitget | +0.00% | okx | -299.12% |
-| 6 | HANMI | +242.87% | bitget | +242.87% | okx | +0.00% |
-| 7 | BOT | +215.84% | okx | +215.84% | bitget | +0.00% |
-| 8 | KIOXIA | +195.45% | bitget | +299.70% | okx | +104.25% |
-| 9 | INTW | +171.70% | bitget | +171.70% | okx | +0.00% |
-| 10 | CYPH | +169.38% | okx | -6.37% | bitget | -175.75% |
+| 1 | SECZ | +410.84% | okx | +0.00% | bitget | -410.84% |
+| 2 | H100 | +308.28% | bitget | +0.00% | okx | -308.28% |
+| 3 | BWET | +233.45% | bitget | -68.66% | okx | -302.11% |
+| 4 | GPRO | +219.88% | bitget | +219.88% | okx | +0.00% |
+| 5 | SOFTBANK | +146.61% | okx | +141.69% | bitget | -4.93% |
+| 6 | AMC | +132.60% | okx | +0.00% | bitget | -132.60% |
+| 7 | ALAB | +131.32% | okx | -36.21% | bitget | -167.53% |
+| 8 | BOT | +120.92% | okx | -79.14% | bitget | -200.06% |
+| 9 | MINA | +87.99% | okx | -101.33% | bitget | -189.33% |
+| 10 | SAND | +68.32% | okx | -63.51% | bitget | -131.84% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
