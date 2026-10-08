@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-10-08 06:24 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **2964**_
+_Last update: **2026-10-08 15:45 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1301**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | NG | okx | +825.04% |
-| 2 | LGELECTRONICS | bitget | +607.94% |
-| 3 | CXMT | okx | +423.31% |
-| 4 | NAVER | bitget | +415.88% |
-| 5 | SENSETIME | bybit | +388.18% |
-| 6 | NATGAS | binance | +377.27% |
-| 7 | CXMT | bitget | +354.12% |
-| 8 | NATGAS | bitget | +345.47% |
-| 9 | MSTU | bybit | +320.78% |
-| 10 | CXMT | bybit | +315.88% |
+| 1 | NG | okx | +1095.00% |
+| 2 | NATGAS | bitget | +547.50% |
+| 3 | BLSH | bitget | +529.87% |
+| 4 | BOT | bitget | +381.50% |
+| 5 | ECHO | bitget | +316.35% |
+| 6 | BUD | bitget | +297.29% |
+| 7 | MSTU | okx | +160.74% |
+| 8 | GPRO | bitget | +145.42% |
+| 9 | PIPPIN | bitget | +133.81% |
+| 10 | ETN | bitget | +121.11% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | H100 | okx | -1095.00% |
-| 2 | HORIZON | bybit | -452.26% |
-| 3 | MEITU | bybit | -409.52% |
-| 4 | HUAHONG | bybit | -368.89% |
-| 5 | MINA | binance | -357.50% |
-| 6 | MET | okx | -329.23% |
-| 7 | MET | bitget | -317.66% |
-| 8 | MET | binance | -294.70% |
-| 9 | INTU | bybit | -275.70% |
-| 10 | MET | bybit | -266.33% |
+| 1 | BWET | okx | -1095.00% |
+| 2 | CTSI | bitget | -1050.32% |
+| 3 | BWET | bitget | -1011.12% |
+| 4 | OGN | bitget | -662.15% |
+| 5 | USDESTOCK | bitget | -606.74% |
+| 6 | H100 | okx | -492.47% |
+| 7 | SKL | bitget | -487.60% |
+| 8 | ERA | bitget | -331.89% |
+| 9 | BZ | okx | -273.20% |
+| 10 | MINA | bitget | -241.23% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | H100 | +1095.00% | bitget | +0.00% | okx | -1095.00% |
-| 2 | LGELECTRONICS | +572.57% | bitget | +607.94% | binance | +35.38% |
-| 3 | MSTU | +431.38% | bybit | +320.78% | bitget | -110.59% |
-| 4 | NAVER | +415.88% | bitget | +415.88% | binance | +0.00% |
-| 5 | CYPH | +323.26% | bybit | +122.00% | bitget | -201.26% |
-| 6 | SAMSUNGEM | +277.91% | bitget | +277.91% | binance | +0.00% |
-| 7 | CXMT | +274.42% | okx | +423.31% | binance | +148.88% |
-| 8 | STG | +261.96% | bybit | +261.96% | binance | +0.00% |
-| 9 | KORU | +260.74% | okx | +37.03% | bitget | -223.71% |
-| 10 | CVC | +239.55% | binance | +5.47% | bybit | -234.08% |
+| 1 | H100 | +492.47% | bitget | +0.00% | okx | -492.47% |
+| 2 | BOT | +298.70% | bitget | +381.50% | okx | +82.80% |
+| 3 | FWDI | +195.65% | bitget | -33.07% | okx | -228.72% |
+| 4 | MSTU | +160.74% | okx | +160.74% | bitget | +0.00% |
+| 5 | ONE | +155.69% | okx | +21.77% | bitget | -133.92% |
+| 6 | PIPPIN | +128.33% | bitget | +133.81% | okx | +5.47% |
+| 7 | GPRO | +117.88% | bitget | +145.42% | okx | +27.53% |
+| 8 | AMC | +106.11% | okx | +0.00% | bitget | -106.11% |
+| 9 | BSP | +98.44% | okx | +0.00% | bitget | -98.44% |
+| 10 | BZ | +98.00% | bitget | -175.20% | okx | -273.20% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
