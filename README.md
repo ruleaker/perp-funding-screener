@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-10-15 13:34 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1323**_
+_Last update: **2026-10-15 19:56 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1323**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | BLSH | bitget | +883.23% |
-| 2 | KOPN | bitget | +533.37% |
-| 3 | SDGR | bitget | +324.67% |
-| 4 | H100 | okx | +269.71% |
-| 5 | FWDI | bitget | +252.84% |
-| 6 | ETN | bitget | +250.32% |
-| 7 | HPQ | bitget | +241.12% |
-| 8 | KR200 | okx | +185.31% |
-| 9 | SKHYNIX | okx | +175.44% |
-| 10 | INDA | bitget | +168.30% |
+| 1 | AGPU | bitget | +617.03% |
+| 2 | GPRO | bitget | +362.55% |
+| 3 | KIOXIA | okx | +271.68% |
+| 4 | ZHONGJI | bitget | +242.32% |
+| 5 | GPRO | okx | +239.47% |
+| 6 | CSOPSKHYNIX2L | okx | +216.64% |
+| 7 | CSOPSK2LHKD | bitget | +213.63% |
+| 8 | CSOPSS2LHKD | bitget | +206.85% |
+| 9 | KR200 | okx | +201.04% |
+| 10 | SOFTBANK | bitget | +163.48% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | BLUR | bitget | -1406.64% |
-| 2 | AGPU | bitget | -816.65% |
-| 3 | TWST | bitget | -766.72% |
-| 4 | VICR | okx | -648.05% |
-| 5 | BLUR | okx | -588.14% |
-| 6 | BWET | bitget | -411.17% |
-| 7 | BSP | bitget | -335.18% |
-| 8 | BSP | okx | -326.81% |
-| 9 | BOT | okx | -323.24% |
-| 10 | SPIR | bitget | -295.32% |
+| 1 | BLUR | bitget | -330.47% |
+| 2 | AMC | bitget | -209.47% |
+| 3 | BWET | bitget | -195.79% |
+| 4 | ANIME | okx | -177.31% |
+| 5 | BLUR | okx | -151.02% |
+| 6 | USDJPY | bitget | -76.54% |
+| 7 | RSR | okx | -66.32% |
+| 8 | AMC | okx | -65.59% |
+| 9 | SPELL | bitget | -61.76% |
+| 10 | MINA | bitget | -60.12% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | BLUR | +818.50% | okx | -588.14% | bitget | -1406.64% |
-| 2 | H100 | +269.71% | okx | +269.71% | bitget | +0.00% |
-| 3 | FLY | +255.79% | okx | +0.00% | bitget | -255.79% |
-| 4 | FWDI | +252.84% | bitget | +252.84% | okx | +0.00% |
-| 5 | KR200 | +185.31% | okx | +185.31% | bitget | +0.00% |
-| 6 | SKHYNIX | +175.44% | okx | +175.44% | bitget | +0.00% |
-| 7 | BWET | +164.68% | okx | -246.50% | bitget | -411.17% |
-| 8 | ROK | +133.39% | bitget | +0.00% | okx | -133.39% |
-| 9 | AMC | +126.36% | okx | +0.00% | bitget | -126.36% |
-| 10 | SOFTBANK | +121.87% | bitget | +0.00% | okx | -121.87% |
+| 1 | KIOXIA | +231.71% | okx | +271.68% | bitget | +39.97% |
+| 2 | KR200 | +201.04% | okx | +201.04% | bitget | +0.00% |
+| 3 | BWET | +195.79% | okx | +0.00% | bitget | -195.79% |
+| 4 | BLUR | +179.45% | okx | -151.02% | bitget | -330.47% |
+| 5 | AMC | +143.89% | okx | -65.59% | bitget | -209.47% |
+| 6 | SAMSUNG | +138.83% | okx | +159.96% | bitget | +21.13% |
+| 7 | SOFTBANK | +138.64% | bitget | +163.48% | okx | +24.85% |
+| 8 | GPRO | +123.08% | bitget | +362.55% | okx | +239.47% |
+| 9 | ANIME | +121.68% | bitget | -55.63% | okx | -177.31% |
+| 10 | ZHONGJI | +99.98% | bitget | +242.32% | okx | +142.35% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
