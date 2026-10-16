@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-10-16 13:23 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1328**_
+_Last update: **2026-10-16 19:37 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1328**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | AGPU | bitget | +1095.00% |
-| 2 | GPRO | bitget | +286.67% |
-| 3 | TBT | bitget | +280.98% |
-| 4 | WEN | okx | +196.72% |
-| 5 | H100 | okx | +187.14% |
-| 6 | USDESTOCK | bitget | +166.22% |
-| 7 | SHLD | okx | +158.97% |
-| 8 | JMKE | bitget | +154.18% |
-| 9 | TSEM | okx | +139.62% |
-| 10 | WEN | bitget | +118.48% |
+| 1 | USDESTOCK | bitget | +229.62% |
+| 2 | CYPH | bitget | +128.01% |
+| 3 | GPRO | bitget | +126.25% |
+| 4 | AGPU | bitget | +124.28% |
+| 5 | SECZ | okx | +122.24% |
+| 6 | SOXL | bitget | +110.59% |
+| 7 | ELSA | bitget | +74.02% |
+| 8 | MSTU | bitget | +62.09% |
+| 9 | NDX100 | bitget | +60.88% |
+| 10 | SECZ | bitget | +60.66% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | BWET | okx | -702.01% |
-| 2 | BLUR | bitget | -627.00% |
-| 3 | BLUR | okx | -616.33% |
-| 4 | ECHO | bitget | -616.16% |
-| 5 | KOPN | bitget | -519.69% |
-| 6 | SDGR | bitget | -469.54% |
-| 7 | SIREN | bitget | -459.24% |
-| 8 | SNPS | bitget | -228.20% |
-| 9 | HANMI | okx | -163.72% |
-| 10 | FLEX | bitget | -149.25% |
+| 1 | CSOPSK2LHKD | bitget | -212.54% |
+| 2 | CSOPSS2LHKD | bitget | -197.65% |
+| 3 | ZIL | bitget | -176.73% |
+| 4 | BLUR | bitget | -152.53% |
+| 5 | BLUR | okx | -145.30% |
+| 6 | ZIL | okx | -134.47% |
+| 7 | USO | okx | -131.39% |
+| 8 | SAMSUNG | okx | -117.03% |
+| 9 | SKHYNIX | okx | -105.45% |
+| 10 | H100 | okx | -100.19% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | BWET | +702.01% | bitget | +0.00% | okx | -702.01% |
-| 2 | GPRO | +285.18% | bitget | +286.67% | okx | +1.49% |
-| 3 | H100 | +187.14% | okx | +187.14% | bitget | +0.00% |
-| 4 | BOT | +167.22% | bitget | +72.27% | okx | -94.95% |
-| 5 | HANMI | +163.72% | bitget | +0.00% | okx | -163.72% |
-| 6 | TSEM | +139.62% | okx | +139.62% | bitget | +0.00% |
-| 7 | TXN | +106.36% | bitget | -25.95% | okx | -132.31% |
-| 8 | KR200 | +96.45% | okx | +96.45% | bitget | +0.00% |
-| 9 | KSTR | +93.65% | okx | +93.65% | bitget | +0.00% |
-| 10 | WEN | +78.24% | okx | +196.72% | bitget | +118.48% |
+| 1 | GPRO | +126.25% | bitget | +126.25% | okx | +0.00% |
+| 2 | H100 | +100.19% | bitget | +0.00% | okx | -100.19% |
+| 3 | CYPH | +98.56% | bitget | +128.01% | okx | +29.45% |
+| 4 | SAMSUNG | +89.33% | bitget | -27.70% | okx | -117.03% |
+| 5 | SOFTBANK | +88.37% | okx | +0.00% | bitget | -88.37% |
+| 6 | SKHYNIX | +86.72% | bitget | -18.72% | okx | -105.45% |
+| 7 | BAND | +66.19% | bitget | +10.95% | okx | -55.24% |
+| 8 | UNITREE | +62.28% | bitget | +0.00% | okx | -62.28% |
+| 9 | SECZ | +61.58% | okx | +122.24% | bitget | +60.66% |
+| 10 | SOXL | +61.08% | bitget | +110.59% | okx | +49.51% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
