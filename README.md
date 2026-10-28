@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-10-28 15:16 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1377**_
+_Last update: **2026-10-28 21:13 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1377**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | H100 | okx | +1077.89% |
-| 2 | GPRO | bitget | +358.72% |
-| 3 | SDGR | bitget | +294.77% |
-| 4 | BWET | bitget | +254.26% |
-| 5 | VEEV | bitget | +225.35% |
-| 6 | LIN | bitget | +201.81% |
-| 7 | PEP | bitget | +195.90% |
-| 8 | SPOT | bitget | +194.14% |
-| 9 | AGPU | bitget | +172.79% |
-| 10 | AAL | bitget | +145.96% |
+| 1 | ARQQ | bitget | +520.45% |
+| 2 | GPRO | bitget | +365.84% |
+| 3 | AGPU | bitget | +251.30% |
+| 4 | CLS | bitget | +227.65% |
+| 5 | CORZ | bitget | +206.30% |
+| 6 | SIMO | bitget | +168.63% |
+| 7 | GPRO | okx | +166.50% |
+| 8 | VEEV | bitget | +163.70% |
+| 9 | OUST | bitget | +147.72% |
+| 10 | BWET | bitget | +141.80% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | AXIS | okx | -866.03% |
-| 2 | BLUR | okx | -861.80% |
-| 3 | KOPN | bitget | -796.61% |
-| 4 | BLUR | bitget | -793.33% |
-| 5 | AXIS | bitget | -573.56% |
-| 6 | SIMO | bitget | -555.49% |
-| 7 | XNDU | bitget | -551.88% |
-| 8 | LWLG | bitget | -548.60% |
-| 9 | BOTZ | bitget | -526.80% |
-| 10 | VLO | bitget | -491.44% |
+| 1 | BLUR | okx | -906.41% |
+| 2 | BLUR | bitget | -864.94% |
+| 3 | AXIS | okx | -819.92% |
+| 4 | AXIS | bitget | -700.80% |
+| 5 | BOT | okx | -291.20% |
+| 6 | UNITREE | okx | -253.51% |
+| 7 | LIN | bitget | -188.01% |
+| 8 | BOT | bitget | -166.33% |
+| 9 | DOOD | bitget | -156.26% |
+| 10 | SATL | bitget | -156.04% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | H100 | +1072.41% | okx | +1077.89% | bitget | +5.47% |
-| 2 | SIMO | +555.49% | okx | +0.00% | bitget | -555.49% |
-| 3 | GPRO | +309.14% | bitget | +358.72% | okx | +49.58% |
-| 4 | AXIS | +292.47% | bitget | -573.56% | okx | -866.03% |
-| 5 | UNITREE | +284.06% | bitget | +0.00% | okx | -284.06% |
-| 6 | DOOD | +250.87% | okx | -171.47% | bitget | -422.34% |
-| 7 | RUM | +207.94% | okx | +0.00% | bitget | -207.94% |
-| 8 | FLY | +144.87% | bitget | +144.87% | okx | +0.00% |
-| 9 | BOT | +136.52% | okx | +43.66% | bitget | -92.86% |
-| 10 | CYPH | +118.59% | okx | +0.00% | bitget | -118.59% |
+| 1 | UNITREE | +253.51% | bitget | +0.00% | okx | -253.51% |
+| 2 | GPRO | +199.34% | bitget | +365.84% | okx | +166.50% |
+| 3 | SIMO | +168.63% | bitget | +168.63% | okx | +0.00% |
+| 4 | OUST | +147.72% | bitget | +147.72% | okx | +0.00% |
+| 5 | KR200 | +132.40% | okx | +112.36% | bitget | -20.04% |
+| 6 | PIPPIN | +127.90% | bitget | +133.37% | okx | +5.47% |
+| 7 | BOT | +124.87% | bitget | -166.33% | okx | -291.20% |
+| 8 | GTLB | +124.83% | okx | +0.00% | bitget | -124.83% |
+| 9 | POET | +124.72% | bitget | +124.72% | okx | +0.00% |
+| 10 | AXIS | +119.12% | bitget | -700.80% | okx | -819.92% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
