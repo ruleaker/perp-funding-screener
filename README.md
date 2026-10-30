@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-10-30 06:08 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1380**_
+_Last update: **2026-10-30 15:09 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1385**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | H100 | okx | +1095.00% |
-| 2 | INTW | okx | +384.12% |
-| 3 | SAMSUNGEM | bitget | +357.19% |
-| 4 | CEG | okx | +339.28% |
-| 5 | BNC | bitget | +330.36% |
-| 6 | LGENERGY | bitget | +328.61% |
-| 7 | NAVER | bitget | +307.04% |
-| 8 | LGELECTRONICS | bitget | +271.45% |
-| 9 | QNT | okx | +225.87% |
-| 10 | CSOPSS2LHKD | bitget | +220.75% |
+| 1 | XNDU | bitget | +961.08% |
+| 2 | NTAP | bitget | +770.33% |
+| 3 | SDGR | bitget | +731.90% |
+| 4 | GFS | bitget | +699.38% |
+| 5 | CLS | bitget | +694.23% |
+| 6 | FLY | bitget | +692.15% |
+| 7 | KOPN | bitget | +690.51% |
+| 8 | BOTZ | bitget | +670.25% |
+| 9 | HPQ | bitget | +628.53% |
+| 10 | BLSH | bitget | +619.00% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | UNITREE | okx | -1095.00% |
-| 2 | JIO | bitget | -1095.00% |
-| 3 | UNITREE | bitget | -459.46% |
-| 4 | TRX | okx | -320.61% |
-| 5 | BOT | okx | -294.00% |
-| 6 | SKDD | okx | -237.75% |
-| 7 | DOOD | bitget | -233.02% |
-| 8 | DOOD | okx | -230.76% |
-| 9 | TRX | bitget | -220.10% |
-| 10 | LSK | bitget | -165.89% |
+| 1 | JIO | bitget | -1095.00% |
+| 2 | H100 | okx | -859.94% |
+| 3 | TSTOCK | bitget | -649.88% |
+| 4 | LSK | bitget | -622.07% |
+| 5 | SPOT | bitget | -596.56% |
+| 6 | PG | bitget | -531.18% |
+| 7 | GILD | bitget | -506.98% |
+| 8 | TRX | okx | -380.22% |
+| 9 | VLO | bitget | -373.18% |
+| 10 | NOC | bitget | -349.74% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | H100 | +1089.53% | okx | +1095.00% | bitget | +5.47% |
-| 2 | UNITREE | +635.54% | bitget | -459.46% | okx | -1095.00% |
-| 3 | INTW | +384.12% | okx | +384.12% | bitget | +0.00% |
-| 4 | CEG | +339.28% | okx | +339.28% | bitget | +0.00% |
-| 5 | NAVER | +307.04% | bitget | +307.04% | okx | +0.00% |
-| 6 | BOT | +294.00% | bitget | +0.00% | okx | -294.00% |
-| 7 | LGELECTRONICS | +271.45% | bitget | +271.45% | okx | +0.00% |
-| 8 | QNT | +242.51% | okx | +225.87% | bitget | -16.64% |
-| 9 | SKDD | +237.75% | bitget | +0.00% | okx | -237.75% |
-| 10 | BWET | +173.23% | bitget | +114.10% | okx | -59.13% |
+| 1 | H100 | +865.41% | bitget | +5.47% | okx | -859.94% |
+| 2 | FLY | +692.15% | bitget | +692.15% | okx | +0.00% |
+| 3 | SIMO | +607.83% | bitget | +607.83% | okx | +0.00% |
+| 4 | TWLO | +501.15% | bitget | +511.91% | okx | +10.76% |
+| 5 | INFQ | +493.54% | bitget | +499.54% | okx | +6.00% |
+| 6 | OUST | +424.31% | bitget | +424.31% | okx | +0.00% |
+| 7 | GILD | +366.30% | okx | -140.69% | bitget | -506.98% |
+| 8 | POET | +329.64% | bitget | +408.22% | okx | +78.58% |
+| 9 | KIOXIA | +245.06% | okx | +0.00% | bitget | -245.06% |
+| 10 | XIAOMI | +231.48% | bitget | +0.00% | okx | -231.48% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
