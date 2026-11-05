@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-11-05 07:07 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1397**_
+_Last update: **2026-11-05 16:37 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1409**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | H100 | okx | +789.63% |
-| 2 | SAMSUNGEM | bitget | +426.83% |
-| 3 | TM | bitget | +403.62% |
-| 4 | KR200 | okx | +364.34% |
-| 5 | SKHYNIX | okx | +316.37% |
-| 6 | LGELECTRONICS | bitget | +223.93% |
-| 7 | JPSONY | bitget | +202.03% |
-| 8 | SKHYNIX | bitget | +182.76% |
-| 9 | KR200 | bitget | +170.27% |
-| 10 | MSTU | okx | +160.69% |
+| 1 | H100 | okx | +692.97% |
+| 2 | LWLG | bitget | +394.20% |
+| 3 | OUST | bitget | +319.52% |
+| 4 | GFS | bitget | +315.14% |
+| 5 | NG | okx | +301.60% |
+| 6 | ECHO | bitget | +301.23% |
+| 7 | OKTA | bitget | +286.67% |
+| 8 | FTNT | bitget | +260.06% |
+| 9 | AVAV | bitget | +254.81% |
+| 10 | DASHSTOCK | bitget | +253.16% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | UNITREE | okx | -1095.00% |
-| 2 | UNITREE | bitget | -1078.90% |
-| 3 | APP | okx | -558.55% |
-| 4 | LSK | bitget | -427.49% |
-| 5 | HUMA | bitget | -265.43% |
-| 6 | HUMA | okx | -265.23% |
-| 7 | BOT | okx | -254.45% |
-| 8 | XIAOMI | okx | -209.30% |
-| 9 | BLEND | okx | -199.79% |
-| 10 | ERA | bitget | -193.05% |
+| 1 | HUMA | okx | -1023.17% |
+| 2 | CSOPSK2LHKD | bitget | -776.03% |
+| 3 | CSOPSS2LHKD | bitget | -724.89% |
+| 4 | ZHONGJI | bitget | -647.36% |
+| 5 | TWASX | bitget | -584.73% |
+| 6 | CXMT | okx | -530.73% |
+| 7 | ZHONGJI | okx | -514.78% |
+| 8 | XTZ | okx | -479.66% |
+| 9 | SOFTBANK | bitget | -474.46% |
+| 10 | KIOXIA | bitget | -473.37% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | H100 | +784.15% | okx | +789.63% | bitget | +5.47% |
-| 2 | APP | +496.68% | bitget | -61.87% | okx | -558.55% |
-| 3 | BOT | +254.45% | bitget | +0.00% | okx | -254.45% |
-| 4 | INTW | +228.13% | okx | +67.17% | bitget | -160.97% |
-| 5 | KR200 | +194.07% | okx | +364.34% | bitget | +170.27% |
-| 6 | XIAOMI | +178.31% | bitget | -30.99% | okx | -209.30% |
-| 7 | MSTU | +160.69% | okx | +160.69% | bitget | +0.00% |
-| 8 | LGELECTRONICS | +143.99% | bitget | +223.93% | okx | +79.94% |
-| 9 | MVLL | +139.35% | okx | +58.43% | bitget | -80.92% |
-| 10 | SKHYNIX | +133.61% | okx | +316.37% | bitget | +182.76% |
+| 1 | HUMA | +703.76% | bitget | -319.41% | okx | -1023.17% |
+| 2 | H100 | +687.49% | okx | +692.97% | bitget | +5.47% |
+| 3 | SOFTBANK | +474.46% | okx | +0.00% | bitget | -474.46% |
+| 4 | KIOXIA | +435.82% | okx | -37.54% | bitget | -473.37% |
+| 5 | XTZ | +370.81% | bitget | -108.84% | okx | -479.66% |
+| 6 | MURATA | +331.02% | okx | +0.00% | bitget | -331.02% |
+| 7 | OUST | +297.29% | bitget | +319.52% | okx | +22.23% |
+| 8 | OKTA | +286.67% | bitget | +286.67% | okx | +0.00% |
+| 9 | SAMSUNG | +225.83% | bitget | -163.48% | okx | -389.32% |
+| 10 | KR200 | +210.71% | okx | +100.45% | bitget | -110.27% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
