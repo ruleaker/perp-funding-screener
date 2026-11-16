@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-11-15 21:07 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1413**_
+_Last update: **2026-11-16 06:57 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1413**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | NVDL | bitget | +244.19% |
-| 2 | SOXL | okx | +244.00% |
-| 3 | NVDL | okx | +235.52% |
-| 4 | KORU | okx | +203.01% |
-| 5 | SHEIN | okx | +185.65% |
-| 6 | NVDA | okx | +184.38% |
-| 7 | SOXL | bitget | +166.77% |
-| 8 | CRWV | okx | +165.45% |
-| 9 | KORU | bitget | +164.91% |
-| 10 | NVDA | bitget | +114.87% |
+| 1 | LGENERGY | bitget | +1095.00% |
+| 2 | LGELECTRONICS | bitget | +1015.72% |
+| 3 | SAMSUNGEM | bitget | +983.75% |
+| 4 | NAVER | bitget | +703.54% |
+| 5 | H100 | okx | +673.20% |
+| 6 | HANMI | bitget | +453.66% |
+| 7 | BWET | okx | +289.30% |
+| 8 | SKDD | bitget | +251.19% |
+| 9 | ZHONGJI | bitget | +222.18% |
+| 10 | ZHONGJI | okx | +220.77% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | RARE | bitget | -1263.30% |
-| 2 | TLM | bitget | -585.72% |
-| 3 | KAVA | bitget | -511.15% |
-| 4 | BLUR | okx | -312.29% |
-| 5 | BLUR | bitget | -283.60% |
-| 6 | SOPH | bitget | -215.39% |
-| 7 | SOPH | okx | -196.12% |
-| 8 | INIT | okx | -190.09% |
-| 9 | SOXS | okx | -159.79% |
-| 10 | RUNE | bitget | -150.23% |
+| 1 | SKR | bitget | -1553.04% |
+| 2 | UNITREE | okx | -761.09% |
+| 3 | KAVA | bitget | -712.30% |
+| 4 | RARE | bitget | -700.69% |
+| 5 | AXIS | okx | -556.26% |
+| 6 | AXIS | bitget | -550.89% |
+| 7 | BIRB | bitget | -489.90% |
+| 8 | SHEINHKD | bitget | -442.60% |
+| 9 | NES | okx | -434.15% |
+| 10 | SHEIN | okx | -336.01% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | INIT | +191.51% | bitget | +1.42% | okx | -190.09% |
-| 2 | SHEIN | +185.65% | okx | +185.65% | bitget | +0.00% |
-| 3 | ONE | +112.01% | okx | -9.65% | bitget | -121.65% |
-| 4 | HUMA | +103.44% | bitget | -32.19% | okx | -135.63% |
-| 5 | SOXL | +77.23% | okx | +244.00% | bitget | +166.77% |
-| 6 | MSTU | +71.17% | bitget | +71.17% | okx | +0.00% |
-| 7 | NVDA | +69.52% | okx | +184.38% | bitget | +114.87% |
-| 8 | KIOXIA | +61.83% | okx | +61.83% | bitget | +0.00% |
-| 9 | SKHYNIX | +61.81% | okx | +67.18% | bitget | +5.37% |
-| 10 | SMH | +61.32% | okx | +61.32% | bitget | +0.00% |
+| 1 | LGELECTRONICS | +950.49% | bitget | +1015.72% | okx | +65.23% |
+| 2 | NAVER | +729.29% | bitget | +703.54% | okx | -25.75% |
+| 3 | H100 | +667.72% | okx | +673.20% | bitget | +5.47% |
+| 4 | HANMI | +608.70% | bitget | +453.66% | okx | -155.04% |
+| 5 | UNITREE | +440.14% | bitget | -320.94% | okx | -761.09% |
+| 6 | SHEIN | +330.21% | bitget | -5.80% | okx | -336.01% |
+| 7 | SKDD | +297.16% | bitget | +251.19% | okx | -45.97% |
+| 8 | BWET | +154.18% | okx | +289.30% | bitget | +135.12% |
+| 9 | FWDI | +147.17% | okx | +96.36% | bitget | -50.81% |
+| 10 | LYTE | +144.43% | okx | +0.00% | bitget | -144.43% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
