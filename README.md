@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-11-17 08:13 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1415**_
+_Last update: **2026-11-17 17:43 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1415**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | LGENERGY | bitget | +863.85% |
-| 2 | NAVER | bitget | +461.54% |
-| 3 | LGELECTRONICS | bitget | +416.10% |
-| 4 | FWDI | okx | +226.91% |
-| 5 | H100 | okx | +218.02% |
-| 6 | SAMSUNGEM | bitget | +194.47% |
-| 7 | MINIMAXHKD | bitget | +182.43% |
-| 8 | HANMI | bitget | +171.48% |
-| 9 | HYUNDAI | okx | +120.19% |
-| 10 | ZHONGJI | bitget | +118.81% |
+| 1 | AGPU | bitget | +220.20% |
+| 2 | H100 | okx | +174.34% |
+| 3 | USDESTOCK | bitget | +167.97% |
+| 4 | CYPH | bitget | +112.46% |
+| 5 | DXY | bitget | +109.50% |
+| 6 | XPT | okx | +107.09% |
+| 7 | KR200 | okx | +103.49% |
+| 8 | UP | okx | +83.80% |
+| 9 | XPT | bitget | +50.81% |
+| 10 | SOXL | bitget | +42.16% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | RARE | bitget | -1804.56% |
-| 2 | EWZS | okx | -546.10% |
-| 3 | HUMA | okx | -470.59% |
-| 4 | SOPH | okx | -430.30% |
-| 5 | KAVA | bitget | -396.06% |
-| 6 | WUXIBIO | okx | -294.74% |
-| 7 | UNITREE | okx | -231.60% |
-| 8 | SKR | bitget | -202.47% |
-| 9 | INIT | okx | -197.20% |
-| 10 | TSEM | bitget | -171.15% |
+| 1 | BREV | okx | -1095.00% |
+| 2 | BREV | bitget | -705.18% |
+| 3 | BLUR | okx | -511.02% |
+| 4 | KAVA | bitget | -414.68% |
+| 5 | AXIS | okx | -365.33% |
+| 6 | RARE | bitget | -363.87% |
+| 7 | BLUR | bitget | -358.94% |
+| 8 | SOPH | okx | -349.17% |
+| 9 | AXIS | bitget | -339.12% |
+| 10 | INIT | okx | -180.78% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | EWZS | +546.10% | bitget | +0.00% | okx | -546.10% |
-| 2 | NAVER | +448.94% | bitget | +461.54% | okx | +12.60% |
-| 3 | LGELECTRONICS | +397.81% | bitget | +416.10% | okx | +18.29% |
-| 4 | HUMA | +360.98% | bitget | -109.61% | okx | -470.59% |
-| 5 | SOPH | +329.67% | bitget | -100.63% | okx | -430.30% |
-| 6 | FWDI | +226.91% | okx | +226.91% | bitget | +0.00% |
-| 7 | H100 | +212.55% | okx | +218.02% | bitget | +5.47% |
-| 8 | UNITREE | +181.89% | bitget | -49.71% | okx | -231.60% |
-| 9 | HANMI | +171.48% | bitget | +171.48% | okx | +0.00% |
-| 10 | CYPH | +155.01% | bitget | +0.00% | okx | -155.01% |
+| 1 | BREV | +389.82% | bitget | -705.18% | okx | -1095.00% |
+| 2 | SOPH | +264.31% | bitget | -84.86% | okx | -349.17% |
+| 3 | H100 | +168.86% | okx | +174.34% | bitget | +5.47% |
+| 4 | BLUR | +152.08% | bitget | -358.94% | okx | -511.02% |
+| 5 | EGLD | +129.37% | bitget | +10.95% | okx | -118.42% |
+| 6 | CYPH | +112.46% | bitget | +112.46% | okx | +0.00% |
+| 7 | HUMA | +109.16% | bitget | -33.84% | okx | -142.99% |
+| 8 | KR200 | +103.49% | okx | +103.49% | bitget | +0.00% |
+| 9 | GMT | +93.23% | bitget | -6.68% | okx | -99.91% |
+| 10 | SOFTBANK | +61.90% | bitget | +0.00% | okx | -61.90% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
