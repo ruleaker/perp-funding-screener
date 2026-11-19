@@ -3,7 +3,7 @@
 > Cross-venue perpetual funding rate screener. Auto-updated every 8 hours via GitHub Actions.
 
 <!-- BEGIN:STAMP -->
-_Last update: **2026-11-18 17:24 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1422**_
+_Last update: **2026-11-19 07:42 UTC**  ·  Venues: binance · bybit · okx · bitget  ·  Pairs scanned: **1422**_
 <!-- END:STAMP -->
 
 Funding rates reveal positioning skew long before price tells the story. When perps trade rich to spot, longs pay shorts — and that flow has a cost of carry that compounds. Cross-venue divergence tells you where positioning is most stretched and where the cheap-borrow / expensive-borrow opportunities live.
@@ -17,16 +17,16 @@ Longs are paying the most premium on these markets.
 <!-- BEGIN:TOP_HIGH -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | ARTY | bitget | +300.47% |
-| 2 | NVDL | okx | +53.88% |
-| 3 | PIEVERSE | bitget | +49.49% |
-| 4 | DXY | bitget | +49.49% |
-| 5 | XPT | okx | +44.35% |
-| 6 | VICR | okx | +44.15% |
-| 7 | BOT | bitget | +38.87% |
-| 8 | SOXL | bitget | +33.73% |
-| 9 | MVLL | bitget | +32.74% |
-| 10 | SOXL | okx | +32.57% |
+| 1 | H100 | okx | +1095.00% |
+| 2 | LGENERGY | bitget | +1095.00% |
+| 3 | NAVER | bitget | +575.86% |
+| 4 | LGELECTRONICS | bitget | +326.20% |
+| 5 | CYPH | okx | +223.26% |
+| 6 | HANMI | bitget | +178.70% |
+| 7 | SAMSUNGEM | bitget | +165.78% |
+| 8 | NANYA | bitget | +132.60% |
+| 9 | BOT | okx | +131.09% |
+| 10 | FLNC | bitget | +125.27% |
 <!-- END:TOP_HIGH -->
 
 ## Lowest annualized funding
@@ -36,16 +36,16 @@ Shorts are paying the most premium on these markets — often a contrarian long-
 <!-- BEGIN:TOP_LOW -->
 | Rank | Symbol | Venue | Funding (annualized) |
 |------|--------|-------|---------------------:|
-| 1 | HUMA | okx | -1095.00% |
-| 2 | ZKC | bitget | -844.57% |
-| 3 | ZKP | bitget | -772.52% |
-| 4 | HUMA | bitget | -415.22% |
-| 5 | CSOPSK2LHKD | bitget | -361.79% |
-| 6 | ZKP | okx | -353.70% |
-| 7 | IRYS | bitget | -270.90% |
-| 8 | KAVA | bitget | -231.04% |
-| 9 | ZIL | okx | -217.34% |
-| 10 | CSOPSS2LHKD | bitget | -200.49% |
+| 1 | IRYS | bitget | -901.62% |
+| 2 | IRYS | okx | -487.33% |
+| 3 | ZKC | bitget | -456.18% |
+| 4 | WUXIBIO | okx | -450.37% |
+| 5 | SKDD | bitget | -364.53% |
+| 6 | POET | bitget | -340.33% |
+| 7 | RGTI | bitget | -319.30% |
+| 8 | ETN | bitget | -259.62% |
+| 9 | HUMA | okx | -257.70% |
+| 10 | EIDO | okx | -201.10% |
 <!-- END:TOP_LOW -->
 
 ## Biggest cross-venue spreads
@@ -55,16 +55,16 @@ Same symbol, different venue. Large spreads can indicate routing inefficiency, l
 <!-- BEGIN:TOP_SPREADS -->
 | Rank | Symbol | Spread | High venue | High rate | Low venue | Low rate |
 |------|--------|-------:|------------|----------:|-----------|---------:|
-| 1 | HUMA | +679.78% | bitget | -415.22% | okx | -1095.00% |
-| 2 | ZKP | +418.82% | okx | -353.70% | bitget | -772.52% |
-| 3 | IRYS | +167.88% | okx | -103.03% | bitget | -270.90% |
-| 4 | SKHYNIX | +152.56% | bitget | -19.27% | okx | -171.83% |
-| 5 | SOFTBANK | +141.15% | okx | +0.00% | bitget | -141.15% |
-| 6 | KIOXIA | +110.49% | okx | +0.00% | bitget | -110.49% |
-| 7 | MINIMAX | +74.56% | okx | -31.54% | bitget | -106.11% |
-| 8 | ZIL | +71.71% | bitget | -145.63% | okx | -217.34% |
-| 9 | UVXY | +71.43% | bitget | -57.27% | okx | -128.70% |
-| 10 | KSTR | +68.36% | bitget | +0.00% | okx | -68.36% |
+| 1 | H100 | +1089.53% | okx | +1095.00% | bitget | +5.47% |
+| 2 | NAVER | +502.29% | bitget | +575.86% | okx | +73.58% |
+| 3 | IRYS | +414.30% | okx | -487.33% | bitget | -901.62% |
+| 4 | HANMI | +377.92% | bitget | +178.70% | okx | -199.22% |
+| 5 | SKDD | +339.30% | okx | -25.22% | bitget | -364.53% |
+| 6 | LGELECTRONICS | +326.20% | bitget | +326.20% | okx | +0.00% |
+| 7 | POET | +239.29% | okx | -101.04% | bitget | -340.33% |
+| 8 | HUMA | +212.58% | bitget | -45.11% | okx | -257.70% |
+| 9 | CYPH | +201.91% | okx | +223.26% | bitget | +21.35% |
+| 10 | EIDO | +201.10% | bitget | +0.00% | okx | -201.10% |
 <!-- END:TOP_SPREADS -->
 
 ## How to read this
